@@ -1,2 +1,2 @@
 # Torbots-Animation-Assets
-Tools, models, and scenes for animation
+Tools, models, scenes, etc. for animation
