@@ -1,0 +1,6 @@
+# Made in Blockbench 4.1.3
+newmtl m_0
+map_Kd car.png 
+newmtl m_1
+map_Kd antenna.png 
+newmtl none
