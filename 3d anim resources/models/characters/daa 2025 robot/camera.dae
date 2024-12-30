@@ -1,0 +1,1414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>YokaiS</author>
+      <authoring_tool>Blockbench</authoring_tool>
+    </contributor>
+    <created>2024-12-29T07:46:34.165Z</created>
+    <modified>2024-12-29T07:46:34.165Z</modified>
+    <unit name="meter" meter="1.0"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_effects>
+  </library_effects>
+  <library_images>
+  </library_images>
+  <library_materials>
+  </library_materials>
+  <library_geometries>
+    <geometry id="c7c48421-ffec-7bf7-cca7-946961553083-mesh" name="cuboid">
+      <mesh>
+        <source id="c7c48421-ffec-7bf7-cca7-946961553083-mesh-positions">
+          <float_array id="c7c48421-ffec-7bf7-cca7-946961553083-mesh-positions-array" count="72">0.3125 0.375 0.5 0.3125 0.375 0.3125 0.3125 0 0.5 0.3125 0 0.3125 -0.3125 0.375 0.5 -0.3125 0.375 0.3125 -0.3125 0 0.5 -0.3125 0 0.3125 0.166667 0.375 0.3125 0.166667 0.375 0.5 -0.166667 0.375 0.3125 -0.166667 0.375 0.5 0.104167 0.4375 0.375 -0.104167 0.4375 0.375 -0.104167 0.4375 0.5 0.104167 0.4375 0.5 0.3125 0.03125 0.5 -0.3125 0.03125 0.5 0.3125 0.34375 0.5 -0.3125 0.34375 0.5 0.276042 0.34375 0.5 0.276042 0.03125 0.5 -0.276042 0.34375 0.5 -0.276042 0.03125 0.5</float_array>
+          <technique_common>
+            <accessor source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="c7c48421-ffec-7bf7-cca7-946961553083-mesh-normals">
+          <float_array id="c7c48421-ffec-7bf7-cca7-946961553083-mesh-normals-array" count="48">0 1 0 0 1 0 0 1 0 0 0.707107 -0.707107 -0.707107 0.707107 0 0 0 1 0.707107 0.707107 0 0 0 1 -1 0 0 1 0 0 0 0 1 0 0 1 0 0 1 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-normals-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="c7c48421-ffec-7bf7-cca7-946961553083-mesh-map-0">
+          <float_array id="c7c48421-ffec-7bf7-cca7-946961553083-mesh-map-0-array" count="128">0 0 0.333333 0 0.333333 1 0 1 1 1 0.666667 1 0.666667 0 1 0 0.666667 1 0.333333 1 0.333333 0 0.666667 0 0.395837 1 0.0625 1 0.0625 0.9375 0.395837 0.9375 0.25 0.75 0.0625 0.75 0.0625 0.6875 0.25 0.6875 0.395837 0.5 0.0625 0.5 0.0625 0.4375 0.395837 0.4375 0.4375 0.75 0.25 0.75 0.25 0.6875 0.4375 0.6875 0 0.666667 0.333333 0.666667 0.333333 0.833333 0 0.833333 1 0.5 1 1 0 1 0 0.5 1 0.5 1 1 0 1 0 0.5 1 0.833333 0.666667 0.833333 0.666667 0.666667 1 0.666667 0.666667 0.833333 0.333333 0.833333 0.333333 0.666667 0.666667 0.666667 1 0.666667 0 0.666667 0 0.5 1 0.5 1 1 0 1 0 0 1 0 1 1 0 1 0 0.5 1 0.5 1 1 0 1 0 0.833333 1 0.833333</float_array>
+          <technique_common>
+            <accessor source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-map-0-array" count="64" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="c7c48421-ffec-7bf7-cca7-946961553083-mesh-vertices">
+          <input semantic="POSITION" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-positions"/>
+        </vertices>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>4 0 0 11 0 1 10 0 2 5 0 3</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>1 1 4 8 1 5 9 1 6 0 1 7</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>12 2 8 13 2 9 14 2 10 15 2 11</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>13 3 12 12 3 13 8 3 14 10 3 15</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>14 4 16 13 4 17 10 4 18 11 4 19</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>15 5 20 14 5 21 11 5 22 9 5 23</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>12 6 24 15 6 25 9 6 26 8 6 27</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>17 7 28 23 7 29 22 7 30 19 7 31</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>6 8 32 4 8 33 5 8 34 7 8 35</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>3 9 36 1 9 37 0 9 38 2 9 39</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>18 10 40 20 10 41 21 10 42 16 10 43</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>20 11 44 22 11 45 23 11 46 21 11 47</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>16 12 48 17 12 49 6 12 50 2 12 51</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>2 13 52 6 13 53 7 13 54 3 13 55</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>5 14 56 1 14 57 3 14 58 7 14 59</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#c7c48421-ffec-7bf7-cca7-946961553083-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>0 15 60 4 15 61 19 15 62 18 15 63</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="868a1bd0-0721-4b36-2957-7f29959bc271-mesh" name="cylinder">
+      <mesh>
+        <source id="868a1bd0-0721-4b36-2957-7f29959bc271-mesh-positions">
+          <float_array id="868a1bd0-0721-4b36-2957-7f29959bc271-mesh-positions-array" count="438">0.048043 0.09375 -0.115985 0 -0.0625 0 0 0.0625 0 0.012342 -0.0625 0.09375 0.012342 0.0625 0.09375 0.036186 -0.0625 0.087361 0.036186 0.0625 0.087361 0.057564 -0.0625 0.075019 0.057564 0.0625 0.075019 0.075019 -0.0625 0.057564 0.075019 0.0625 0.057564 0.087361 -0.0625 0.036186 0.087361 0.0625 0.036186 0.09375 -0.0625 0.012342 0.09375 0.0625 0.012342 0.09375 -0.0625 -0.012342 0.09375 0.0625 -0.012342 0.087361 -0.0625 -0.036186 0.087361 0.0625 -0.036186 0.075019 -0.0625 -0.057564 0.075019 0.0625 -0.057564 0.057564 -0.0625 -0.075019 0.057564 0.0625 -0.075019 0.036186 -0.0625 -0.087361 0.036186 0.0625 -0.087361 0.012342 -0.0625 -0.09375 0.012342 0.0625 -0.09375 -0.012342 -0.0625 -0.09375 -0.012342 0.0625 -0.09375 -0.036186 -0.0625 -0.087361 -0.036186 0.0625 -0.087361 -0.057564 -0.0625 -0.075019 -0.057564 0.0625 -0.075019 -0.075019 -0.0625 -0.057564 -0.075019 0.0625 -0.057564 -0.087361 -0.0625 -0.036186 -0.087361 0.0625 -0.036186 -0.09375 -0.0625 -0.012342 -0.09375 0.0625 -0.012342 -0.09375 -0.0625 0.012342 -0.09375 0.0625 0.012342 -0.087361 -0.0625 0.036186 -0.087361 0.0625 0.036186 -0.075019 -0.0625 0.057564 -0.075019 0.0625 0.057564 -0.057564 -0.0625 0.075019 -0.057564 0.0625 0.075019 -0.036186 -0.0625 0.087361 -0.036186 0.0625 0.087361 -0.012342 -0.0625 0.09375 -0.012342 0.0625 0.09375 0.016386 -0.0625 0.124468 0.048043 -0.0625 0.115985 0.048043 0.0625 0.115985 0.016386 0.0625 0.124468 0.076425 -0.0625 0.099599 0.076425 0.0625 0.099599 0.099599 -0.0625 0.076425 0.099599 0.0625 0.076425 0.115985 -0.0625 0.048043 0.115985 0.0625 0.048043 0.124468 -0.0625 0.016386 0.124468 0.0625 0.016386 0.124468 -0.0625 -0.016386 0.124468 0.0625 -0.016386 0.115985 -0.0625 -0.048043 0.115985 0.0625 -0.048043 0.099599 -0.0625 -0.076425 0.099599 0.0625 -0.076425 0.076425 -0.0625 -0.099599 0.076425 0.0625 -0.099599 0.048043 -0.0625 -0.115985 0.048043 0.0625 -0.115985 0.016386 -0.0625 -0.124468 0.016386 0.0625 -0.124468 -0.016386 -0.0625 -0.124468 -0.016386 0.0625 -0.124468 -0.048043 -0.0625 -0.115985 -0.048043 0.0625 -0.115985 -0.076425 -0.0625 -0.099599 -0.076425 0.0625 -0.099599 -0.099599 -0.0625 -0.076425 -0.099599 0.0625 -0.076425 -0.115985 -0.0625 -0.048043 -0.115985 0.0625 -0.048043 -0.124468 -0.0625 -0.016386 -0.124468 0.0625 -0.016386 -0.124468 -0.0625 0.016386 -0.124468 0.0625 0.016386 -0.115985 -0.0625 0.048043 -0.115985 0.0625 0.048043 -0.099599 -0.0625 0.076425 -0.099599 0.0625 0.076425 -0.076425 -0.0625 0.099599 -0.076425 0.0625 0.099599 -0.048043 -0.0625 0.115985 -0.048043 0.0625 0.115985 -0.016386 -0.0625 0.124468 -0.016386 0.0625 0.124468 -0.115985 0.09375 0.048043 -0.099599 0.09375 0.076425 -0.075019 0.09375 0.057564 -0.087361 0.09375 0.036186 -0.076425 0.09375 0.099599 -0.057564 0.09375 0.075019 -0.048043 0.09375 0.115985 -0.036186 0.09375 0.087361 -0.016386 0.09375 0.124468 -0.012342 0.09375 0.09375 0.016386 0.09375 0.124468 0.012342 0.09375 0.09375 0.048043 0.09375 0.115985 0.036186 0.09375 0.087361 0.076425 0.09375 0.099599 0.057564 0.09375 0.075019 0.099599 0.09375 0.076425 0.075019 0.09375 0.057564 0.016386 0.09375 -0.124468 -0.016386 0.09375 -0.124468 -0.012342 0.09375 -0.09375 0.012342 0.09375 -0.09375 0.115985 0.09375 0.048043 0.087361 0.09375 0.036186 0.124468 0.09375 0.016386 0.09375 0.09375 0.012342 0.124468 0.09375 -0.016386 0.09375 0.09375 -0.012342 0.115985 0.09375 -0.048043 0.087361 0.09375 -0.036186 0.099599 0.09375 -0.076425 0.075019 0.09375 -0.057564 0.076425 0.09375 -0.099599 0.057564 0.09375 -0.075019 0.036186 0.09375 -0.087361 -0.048043 0.09375 -0.115985 -0.036186 0.09375 -0.087361 -0.076425 0.09375 -0.099599 -0.099599 0.09375 -0.076425 -0.075019 0.09375 -0.057564 -0.057564 0.09375 -0.075019 -0.115985 0.09375 -0.048043 -0.087361 0.09375 -0.036186 -0.124468 0.09375 -0.016386 -0.09375 0.09375 -0.012342 -0.124468 0.09375 0.016386 -0.09375 0.09375 0.012342</float_array>
+          <technique_common>
+            <accessor source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-positions-array" count="146" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals">
+          <float_array id="868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals-array" count="504">0 -1 0 0.258819 0 0.965926 0 1 0 0 -1 0 0.5 0 0.866025 0 1 0 0 -1 0 0.707107 0 0.707107 0 1 0 0 -1 0 0.866025 0 0.5 0 1 0 0 -1 0 0.965926 0 0.258819 0 1 0 0 -1 0 1 0 0 0 1 0 0 -1 0 0.965926 0 -0.258819 0 1 0 0 -1 0 0.866025 0 -0.5 0 1 0 0 -1 0 0.707107 0 -0.707107 0 1 0 0 -1 0 0.5 0 -0.866025 0 1 0 0 -1 0 0.258819 0 -0.965926 0 1 0 0 -1 0 0 0 -1 0 1 0 0 -1 0 -0.258819 0 -0.965926 0 1 0 0 -1 0 -0.5 0 -0.866025 0 1 0 0 -1 0 -0.707107 0 -0.707107 0 1 0 0 -1 0 -0.866025 0 -0.5 0 1 0 0 -1 0 -0.965926 0 -0.258819 0 1 0 0 -1 0 -1 0 0 0 1 0 0 -1 0 -0.965926 0 0.258819 0 1 0 0 -1 0 -0.866025 0 0.5 0 1 0 0 -1 0 -0.707107 0 0.707107 0 1 0 0 -1 0 -0.5 0 0.866025 0 1 0 0 -1 0 -0.258819 0 0.965926 0 1 0 0 -1 0 0 0 1 0 1 0 0 -1 0 0 1 0 0 -1 0 0 1 0 0 -1 0 0 1 0 0 -1 0 0 1 0 0 -1 0 0 1 0 0 -1 0 0 1 0 0 -1 0 0 1 0 0 -1 0 0 1 0 0 -1 0 0 1 0 0 -1 0 0 1 0 0 -1 0 0 1 0 0 -1 0 0 1 0 0 -1 0 0 1 0 0 -1 0 0 1 0 0 -1 0 0 1 0 0 -1 0 0 1 0 0 -1 0 0 1 0 0 -1 0 0 1 0 0 -1 0 0 1 0 0 -1 0 0 1 0 0 -1 0 0 1 0 0 -1 0 0 1 0 0 -1 0 0 1 0 0 -1 0 0 1 0 -0.866025 0 0.5 0.866025 0 -0.5 -0.707107 0 0.707107 0.707107 0 -0.707107 -0.5 0 0.866025 0.5 0 -0.866025 -0.258819 0 0.965926 0.258819 0 -0.965926 0 0 1 0 0 -1 0.258819 0 0.965926 -0.258819 0 -0.965926 0.5 0 0.866025 -0.5 0 -0.866025 0.707107 0 0.707107 -0.707107 0 -0.707107 0 0 -1 0 0 1 0.866025 0 0.5 -0.866025 0 -0.5 0.965926 0 0.258819 -0.965926 0 -0.258819 1 0 0 -1 0 0 0.965926 0 -0.258819 -0.965926 0 0.258819 0.866025 0 -0.5 -0.866025 0 0.5 0.707107 0 -0.707107 -0.707107 0 0.707107 0.5 0 -0.866025 -0.5 0 0.866025 0.258819 0 -0.965926 -0.258819 0 0.965926 -0.258819 0 -0.965926 0.258819 0 0.965926 -0.707107 0 -0.707107 0.707107 0 0.707107 -0.5 0 -0.866025 0.5 0 0.866025 -0.866025 0 -0.5 0.866025 0 0.5 -0.965926 0 -0.258819 0.965926 0 0.258819 -1 0 0 1 0 0 -0.965926 0 0.258819 0.965926 0 -0.258819</float_array>
+          <technique_common>
+            <accessor source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals-array" count="168" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0">
+          <float_array id="868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0-array" count="1248">0.504314 0.869471 0.48713 1 0 0.869471 0 0.5 0.13165 0.5 0.13165 1 0 1 0 0.495686 0.130528 0.512871 0 1 0.504314 0.869476 0.487131 1 0 0.869476 0 0.5 0.13165 0.5 0.13165 1 0 1 0 0.495686 0.130524 0.512869 0 1 0.504314 0.869472 0.48713 1 0 0.869472 0 0.5 0.13165 0.5 0.13165 1 0 1 0 0.495686 0.130528 0.51287 0 1 0.504314 0.869476 0.487131 1 0 0.869476 0 0.5 0.13165 0.5 0.13165 1 0 1 0 0.495686 0.130524 0.512869 0 1 0.504314 0.869472 0.487129 1 0 0.869472 0 0.5 0.13165 0.5 0.13165 1 0 1 0 0.495686 0.130529 0.51287 0 1 0.5 0.86835 0.5 1 0 0.934175 0 0.5 0.13165 0.5 0.13165 1 0 1 0.5 0.86835 0.5 1 0 0.934175 0 0.495686 0.130529 0.51287 0 1 0 0.5 0.13165 0.5 0.13165 1 0 1 0.504314 0.869472 0.487129 1 0 0.869472 0 0.495686 0.130524 0.512869 0 1 0 0.5 0.13165 0.5 0.13165 1 0 1 0.504314 0.869476 0.487131 1 0 0.869476 0 0.495686 0.130528 0.51287 0 1 0 0.5 0.13165 0.5 0.13165 1 0 1 0.504314 0.869472 0.48713 1 0 0.869472 0 0.495686 0.130524 0.512869 0 1 0 0.5 0.13165 0.5 0.13165 1 0 1 0.504314 0.869476 0.487131 1 0 0.869476 0 0.495686 0.130528 0.512871 0 1 0 0.5 0.13165 0.5 0.13165 1 0 1 0.504314 0.869471 0.48713 1 0 0.869471 0 0.5 0.13165 0.5 0.065825 1 0 0.5 0.13165 0.5 0.13165 1 0 1 0.13165 1 0 1 0.065825 0.5 0 1 0.017184 0.869471 0.504314 1 0 0.5 0.13165 0.5 0.13165 1 0 1 0.130528 1 0 0.982815 0.130528 0.495686 0 1 0.017184 0.869476 0.504314 1 0 0.5 0.13165 0.5 0.13165 1 0 1 0.130524 1 0 0.982817 0.130524 0.495686 0 1 0.017185 0.869472 0.504314 1 0 0.5 0.13165 0.5 0.13165 1 0 1 0.130528 1 0 0.982815 0.130528 0.495686 0 1 0.017183 0.869476 0.504314 1 0 0.5 0.13165 0.5 0.13165 1 0 1 0.130524 1 0 0.982816 0.130524 0.495686 0 1 0.017185 0.869472 0.504314 1 0 0.5 0.13165 0.5 0.13165 1 0 1 0.130529 1 0 0.982816 0.130529 0.495686 0 1 0 0.86835 0.5 0.934175 0 0.5 0.13165 0.5 0.13165 1 0 1 0 1 0 0.86835 0.5 0.934175 0.130529 1 0 0.982816 0.130529 0.495686 0 0.5 0.13165 0.5 0.13165 1 0 1 0 1 0.017185 0.869472 0.504314 1 0.130524 1 0 0.982816 0.130524 0.495686 0 0.5 0.13165 0.5 0.13165 1 0 1 0 1 0.017183 0.869476 0.504314 1 0.130528 1 0 0.982815 0.130528 0.495686 0 0.5 0.13165 0.5 0.13165 1 0 1 0 1 0.017185 0.869472 0.504314 1 0.130524 1 0 0.982817 0.130524 0.495686 0 0.5 0.13165 0.5 0.13165 1 0 1 0 1 0.017184 0.869476 0.504314 1 0.130528 1 0 0.982815 0.130528 0.495686 0 0.5 0.13165 0.5 0.13165 1 0 1 0 1 0.017184 0.869471 0.504314 1 0.13165 1 0 1 0.065825 0.5 0 0.5 0.13165 0.5 0.13165 1 0 1 0 0.5 0.13165 0.5 0.065825 1 0.093219 0.717227 0.093219 0.75 0.0625 0.745956 0.062501 0.721272 0.0625 0.969281 0.095273 0.969281 0.091228 0.999999 0.066544 1 0.030719 0.717227 0.030719 0.75 0.000001 0.745954 0 0.721271 0.0625 0.969281 0.095273 0.969281 0.091229 1 0.066546 0.999999 0.030719 0.717226 0.030719 0.75 0 0.745956 0 0.721269 0.0625 0.969281 0.095274 0.969281 0.091231 1 0.066544 1 0.030719 0.717227 0.030719 0.75 0 0.745957 0.000001 0.721273 0.0625 0.969281 0.095273 0.969281 0.091227 0.999999 0.066543 1 0.093219 0.717227 0.093219 0.75 0.062501 0.745956 0.0625 0.721271 0.0625 0.969281 0.095273 0.969281 0.091229 1 0.066544 0.999999 0.093219 0.717225 0.093219 0.75 0.0625 0.745956 0.0625 0.721269 0.093219 0.967225 0.093219 1 0.0625 0.995956 0.0625 0.971269 0.0625 0.719281 0.095273 0.719281 0.091229 0.75 0.066544 0.749999 0.093219 0.967227 0.093219 1 0.062501 0.995956 0.0625 0.971271 0.0625 0.781781 0.095273 0.781781 0.091227 0.812499 0.066543 0.8125 0.030719 0.967227 0.030719 1 0 0.995957 0.000001 0.971273 0.0625 0.781781 0.095274 0.781781 0.091231 0.8125 0.066544 0.8125 0.030719 0.967226 0.030719 1 0 0.995956 0 0.971269 0.0625 0.781781 0.095273 0.781781 0.091229 0.8125 0.066546 0.812499 0.030719 0.967227 0.030719 1 0.000001 0.995954 0 0.971271 0.0625 0.719281 0.095273 0.719281 0.091228 0.749999 0.066544 0.75 0.093219 0.967227 0.093219 1 0.0625 0.995956 0.062501 0.971272 0.0625 0.719281 0.095275 0.719281 0.091231 0.75 0.066544 0.75 0.095275 1 0.0625 1 0.066544 0.969281 0.091231 0.969281 0 0.75 0 0.717227 0.030719 0.721271 0.030718 0.745956 0.095273 1 0.0625 1 0.066544 0.969282 0.091229 0.969281 0 0.75 0 0.717227 0.030718 0.721273 0.030719 0.745957 0.095273 1 0.0625 1 0.066543 0.969281 0.091227 0.969282 0 0.75 0 0.717226 0.030719 0.721269 0.030719 0.745956 0.095274 1 0.0625 1 0.066544 0.969281 0.091231 0.969281 0 0.75 0 0.717227 0.030719 0.721271 0.030718 0.745954 0.095273 1 0.0625 1 0.066546 0.969282 0.091229 0.969281 0 0.75 0 0.717227 0.030718 0.721272 0.030719 0.745956 0.095273 1 0.0625 1 0.066544 0.969281 0.091228 0.969282 0 0.75 0 0.717225 0.030719 0.721269 0.030719 0.745956 0 1 0 0.967225 0.030719 0.971269 0.030719 0.995956 0.095273 0.75 0.0625 0.75 0.066544 0.719281 0.091228 0.719282 0 1 0 0.967227 0.030718 0.971272 0.030719 0.995956 0.095273 0.75 0.0625 0.75 0.066546 0.719282 0.091229 0.719281 0 1 0 0.967227 0.030719 0.971271 0.030718 0.995954 0.095274 0.75 0.0625 0.75 0.066544 0.719281 0.091231 0.719281 0 1 0 0.967226 0.030719 0.971269 0.030719 0.995956 0.095273 0.75 0.0625 0.75 0.066543 0.719281 0.091227 0.719282 0 1 0 0.967227 0.030718 0.971273 0.030719 0.995957 0.095273 0.75 0.0625 0.75 0.066544 0.719282 0.091229 0.719281 0 1 0 0.967227 0.030719 0.971271 0.030718 0.995956 0.095275 0.75 0.0625 0.75 0.066544 0.719281 0.091231 0.719281 0.0625 0.969281 0.095275 0.969281 0.091231 1 0.066544 1 0.032775 1 0 1 0 0.9375 0.032775 0.9375 0.024688 1 0 1 0 0.9375 0.024688 0.9375 0.032775 1 0 1 0 0.9375 0.032775 0.9375 0.024688 1 0 1 0 0.9375 0.024688 0.9375 0.032775 1 0 1 0 0.9375 0.032775 0.9375 0.024688 1 0 1 0 0.9375 0.024688 0.9375 0.032775 1 0 1 0 0.9375 0.032775 0.9375 0.024688 1 0 1 0 0.9375 0.024688 0.9375 0.095275 1 0.0625 1 0.0625 0.9375 0.095275 0.9375 0.087187 1 0.0625 1 0.0625 0.9375 0.087187 0.9375 0.095275 1 0.0625 1 0.0625 0.9375 0.095275 0.9375 0.087187 1 0.0625 1 0.0625 0.9375 0.087187 0.9375 0.095275 1 0.0625 1 0.0625 0.9375 0.095275 0.9375 0.087187 1 0.0625 1 0.0625 0.9375 0.087187 0.9375 0.095275 1 0.0625 1 0.0625 0.9375 0.095275 0.9375 0.087187 1 0.0625 1 0.0625 0.9375 0.087187 0.9375 0.095275 1 0.0625 1 0.0625 0.9375 0.095275 0.9375 0.087187 1 0.0625 1 0.0625 0.9375 0.087187 0.9375 0.095275 1 0.0625 1 0.0625 0.9375 0.095275 0.9375 0.087187 1 0.0625 1 0.0625 0.9375 0.087187 0.9375 0.095275 1 0.0625 1 0.0625 0.9375 0.095275 0.9375 0.087187 1 0.0625 1 0.0625 0.9375 0.087187 0.9375 0.095275 1 0.0625 1 0.0625 0.9375 0.095275 0.9375 0.087187 1 0.0625 1 0.0625 0.9375 0.087187 0.9375 0.095275 1 0.0625 1 0.0625 0.9375 0.095275 0.9375 0.087187 1 0.0625 1 0.0625 0.9375 0.087187 0.9375 0.032775 1 0 1 0 0.9375 0.032775 0.9375 0.024688 1 0 1 0 0.9375 0.024688 0.9375 0.032775 1 0 1 0 0.9375 0.032775 0.9375 0.024688 1 0 1 0 0.9375 0.024688 0.9375 0.032775 1 0 1 0 0.9375 0.032775 0.9375 0.024688 1 0 1 0 0.9375 0.024688 0.9375 0.095275 1 0.0625 1 0.0625 0.9375 0.095275 0.9375 0.087187 1 0.0625 1 0.0625 0.9375 0.087187 0.9375 0.095275 1 0.0625 1 0.0625 0.9375 0.095275 0.9375 0.087187 1 0.0625 1 0.0625 0.9375 0.087187 0.9375 0.095275 1 0.0625 1 0.0625 0.9375 0.095275 0.9375 0.087187 1 0.0625 1 0.0625 0.9375 0.087187 0.9375 0.095275 1 0.0625 1 0.0625 0.9375 0.095275 0.9375 0.087187 1 0.0625 1 0.0625 0.9375 0.087187 0.9375 0.095275 1 0.0625 1 0.0625 0.9375 0.095275 0.9375 0.087187 1 0.0625 1 0.0625 0.9375 0.087187 0.9375 0.095275 1 0.0625 1 0.0625 0.9375 0.095275 0.9375 0.087187 1 0.0625 1 0.0625 0.9375 0.087187 0.9375 0.032775 1 0 1 0 0.9375 0.032775 0.9375 0.024688 1 0 1 0 0.9375 0.024688 0.9375 0.032775 1 0 1 0 0.9375 0.032775 0.9375 0.024688 1 0 1 0 0.9375 0.024688 0.9375</float_array>
+          <technique_common>
+            <accessor source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0-array" count="624" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices">
+          <input semantic="POSITION" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-positions"/>
+        </vertices>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>3</vcount>
+          <p>5 0 0 3 0 1 1 0 2</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>51 1 3 52 1 4 53 1 5 54 1 6</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>3</vcount>
+          <p>4 2 7 6 2 8 2 2 9</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>3</vcount>
+          <p>7 3 10 5 3 11 1 3 12</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>52 4 13 55 4 14 56 4 15 53 4 16</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>3</vcount>
+          <p>6 5 17 8 5 18 2 5 19</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>3</vcount>
+          <p>9 6 20 7 6 21 1 6 22</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>55 7 23 57 7 24 58 7 25 56 7 26</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>3</vcount>
+          <p>8 8 27 10 8 28 2 8 29</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>3</vcount>
+          <p>11 9 30 9 9 31 1 9 32</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>57 10 33 59 10 34 60 10 35 58 10 36</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>3</vcount>
+          <p>10 11 37 12 11 38 2 11 39</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>3</vcount>
+          <p>13 12 40 11 12 41 1 12 42</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>59 13 43 61 13 44 62 13 45 60 13 46</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>3</vcount>
+          <p>12 14 47 14 14 48 2 14 49</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>3</vcount>
+          <p>15 15 50 13 15 51 1 15 52</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>61 16 53 63 16 54 64 16 55 62 16 56</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>3</vcount>
+          <p>14 17 57 16 17 58 2 17 59</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>3</vcount>
+          <p>17 18 60 15 18 61 1 18 62</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>63 19 63 65 19 64 66 19 65 64 19 66</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>3</vcount>
+          <p>16 20 67 18 20 68 2 20 69</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>3</vcount>
+          <p>19 21 70 17 21 71 1 21 72</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>65 22 73 67 22 74 68 22 75 66 22 76</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>3</vcount>
+          <p>18 23 77 20 23 78 2 23 79</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>3</vcount>
+          <p>21 24 80 19 24 81 1 24 82</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>67 25 83 69 25 84 70 25 85 68 25 86</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>3</vcount>
+          <p>20 26 87 22 26 88 2 26 89</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>3</vcount>
+          <p>23 27 90 21 27 91 1 27 92</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>69 28 93 71 28 94 72 28 95 70 28 96</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>3</vcount>
+          <p>22 29 97 24 29 98 2 29 99</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>3</vcount>
+          <p>25 30 100 23 30 101 1 30 102</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>71 31 103 73 31 104 74 31 105 72 31 106</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>3</vcount>
+          <p>24 32 107 26 32 108 2 32 109</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>3</vcount>
+          <p>27 33 110 25 33 111 1 33 112</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>73 34 113 75 34 114 76 34 115 74 34 116</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>3</vcount>
+          <p>26 35 117 28 35 118 2 35 119</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>3</vcount>
+          <p>29 36 120 27 36 121 1 36 122</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>75 37 123 77 37 124 78 37 125 76 37 126</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>3</vcount>
+          <p>28 38 127 30 38 128 2 38 129</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>3</vcount>
+          <p>31 39 130 29 39 131 1 39 132</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>77 40 133 79 40 134 80 40 135 78 40 136</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>3</vcount>
+          <p>30 41 137 32 41 138 2 41 139</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>3</vcount>
+          <p>33 42 140 31 42 141 1 42 142</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>79 43 143 81 43 144 82 43 145 80 43 146</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>3</vcount>
+          <p>32 44 147 34 44 148 2 44 149</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>3</vcount>
+          <p>35 45 150 33 45 151 1 45 152</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>81 46 153 83 46 154 84 46 155 82 46 156</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>3</vcount>
+          <p>34 47 157 36 47 158 2 47 159</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>3</vcount>
+          <p>37 48 160 35 48 161 1 48 162</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>83 49 163 85 49 164 86 49 165 84 49 166</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>3</vcount>
+          <p>36 50 167 38 50 168 2 50 169</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>3</vcount>
+          <p>39 51 170 37 51 171 1 51 172</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>85 52 173 87 52 174 88 52 175 86 52 176</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>3</vcount>
+          <p>38 53 177 40 53 178 2 53 179</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>3</vcount>
+          <p>41 54 180 39 54 181 1 54 182</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>87 55 183 89 55 184 90 55 185 88 55 186</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>3</vcount>
+          <p>40 56 187 42 56 188 2 56 189</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>3</vcount>
+          <p>43 57 190 41 57 191 1 57 192</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>89 58 193 91 58 194 92 58 195 90 58 196</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>3</vcount>
+          <p>42 59 197 44 59 198 2 59 199</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>3</vcount>
+          <p>45 60 200 43 60 201 1 60 202</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>91 61 203 93 61 204 94 61 205 92 61 206</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>3</vcount>
+          <p>44 62 207 46 62 208 2 62 209</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>3</vcount>
+          <p>47 63 210 45 63 211 1 63 212</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>93 64 213 95 64 214 96 64 215 94 64 216</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>3</vcount>
+          <p>46 65 217 48 65 218 2 65 219</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>3</vcount>
+          <p>49 66 220 47 66 221 1 66 222</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>95 67 223 97 67 224 98 67 225 96 67 226</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>3</vcount>
+          <p>48 68 227 50 68 228 2 68 229</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>3</vcount>
+          <p>3 69 230 49 69 231 1 69 232</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>97 70 233 51 70 234 54 70 235 98 70 236</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>3</vcount>
+          <p>50 71 237 4 71 238 2 71 239</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>52 72 240 51 72 241 3 72 242 5 72 243</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>109 73 244 111 73 245 112 73 246 110 73 247</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>55 74 248 52 74 249 5 74 250 7 74 251</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>111 75 252 113 75 253 114 75 254 112 75 255</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>57 76 256 55 76 257 7 76 258 9 76 259</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>113 77 260 115 77 261 116 77 262 114 77 263</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>59 78 264 57 78 265 9 78 266 11 78 267</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>115 79 268 121 79 269 122 79 270 116 79 271</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>61 80 272 59 80 273 11 80 274 13 80 275</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>121 81 276 123 81 277 124 81 278 122 81 279</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>63 82 280 61 82 281 13 82 282 15 82 283</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>123 83 284 125 83 285 126 83 286 124 83 287</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>65 84 288 63 84 289 15 84 290 17 84 291</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>125 85 292 127 85 293 128 85 294 126 85 295</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>67 86 296 65 86 297 17 86 298 19 86 299</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>127 87 300 129 87 301 130 87 302 128 87 303</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>69 88 304 67 88 305 19 88 306 21 88 307</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>129 89 308 131 89 309 132 89 310 130 89 311</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>71 90 312 69 90 313 21 90 314 23 90 315</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>131 91 316 0 91 317 133 91 318 132 91 319</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>73 92 320 71 92 321 23 92 322 25 92 323</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>0 93 324 117 93 325 120 93 326 133 93 327</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>75 94 328 73 94 329 25 94 330 27 94 331</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>117 95 332 118 95 333 119 95 334 120 95 335</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>77 96 336 75 96 337 27 96 338 29 96 339</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>118 97 340 134 97 341 135 97 342 119 97 343</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>79 98 344 77 98 345 29 98 346 31 98 347</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>134 99 348 136 99 349 139 99 350 135 99 351</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>81 100 352 79 100 353 31 100 354 33 100 355</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>136 101 356 137 101 357 138 101 358 139 101 359</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>83 102 360 81 102 361 33 102 362 35 102 363</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>137 103 364 140 103 365 141 103 366 138 103 367</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>85 104 368 83 104 369 35 104 370 37 104 371</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>140 105 372 142 105 373 143 105 374 141 105 375</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>87 106 376 85 106 377 37 106 378 39 106 379</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>142 107 380 144 107 381 145 107 382 143 107 383</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>89 108 384 87 108 385 39 108 386 41 108 387</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>144 109 388 99 109 389 102 109 390 145 109 391</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>91 110 392 89 110 393 41 110 394 43 110 395</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>99 111 396 100 111 397 101 111 398 102 111 399</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>93 112 400 91 112 401 43 112 402 45 112 403</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>100 113 404 103 113 405 104 113 406 101 113 407</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>95 114 408 93 114 409 45 114 410 47 114 411</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>103 115 412 105 115 413 106 115 414 104 115 415</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>97 116 416 95 116 417 47 116 418 49 116 419</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>105 117 420 107 117 421 108 117 422 106 117 423</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>51 118 424 97 118 425 49 118 426 3 118 427</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>107 119 428 109 119 429 110 119 430 108 119 431</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>100 120 432 99 120 433 90 120 434 92 120 435</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>102 121 436 101 121 437 44 121 438 42 121 439</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>103 122 440 100 122 441 92 122 442 94 122 443</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>101 123 444 104 123 445 46 123 446 44 123 447</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>105 124 448 103 124 449 94 124 450 96 124 451</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>104 125 452 106 125 453 48 125 454 46 125 455</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>107 126 456 105 126 457 96 126 458 98 126 459</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>106 127 460 108 127 461 50 127 462 48 127 463</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>109 128 464 107 128 465 98 128 466 54 128 467</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>108 129 468 110 129 469 4 129 470 50 129 471</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>111 130 472 109 130 473 54 130 474 53 130 475</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>110 131 476 112 131 477 6 131 478 4 131 479</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>113 132 480 111 132 481 53 132 482 56 132 483</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>112 133 484 114 133 485 8 133 486 6 133 487</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>115 134 488 113 134 489 56 134 490 58 134 491</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>114 135 492 116 135 493 10 135 494 8 135 495</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>118 136 496 117 136 497 74 136 498 76 136 499</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>120 137 500 119 137 501 28 137 502 26 137 503</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>121 138 504 115 138 505 58 138 506 60 138 507</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>116 139 508 122 139 509 12 139 510 10 139 511</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>123 140 512 121 140 513 60 140 514 62 140 515</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>122 141 516 124 141 517 14 141 518 12 141 519</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>125 142 520 123 142 521 62 142 522 64 142 523</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>124 143 524 126 143 525 16 143 526 14 143 527</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>127 144 528 125 144 529 64 144 530 66 144 531</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>126 145 532 128 145 533 18 145 534 16 145 535</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>129 146 536 127 146 537 66 146 538 68 146 539</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>128 147 540 130 147 541 20 147 542 18 147 543</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>131 148 544 129 148 545 68 148 546 70 148 547</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>130 149 548 132 149 549 22 149 550 20 149 551</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>0 150 552 131 150 553 70 150 554 72 150 555</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>132 151 556 133 151 557 24 151 558 22 151 559</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>117 152 560 0 152 561 72 152 562 74 152 563</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>133 153 564 120 153 565 26 153 566 24 153 567</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>134 154 568 118 154 569 76 154 570 78 154 571</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>119 155 572 135 155 573 30 155 574 28 155 575</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>137 156 576 136 156 577 80 156 578 82 156 579</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>139 157 580 138 157 581 34 157 582 32 157 583</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>136 158 584 134 158 585 78 158 586 80 158 587</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>135 159 588 139 159 589 32 159 590 30 159 591</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>140 160 592 137 160 593 82 160 594 84 160 595</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>138 161 596 141 161 597 36 161 598 34 161 599</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>142 162 600 140 162 601 84 162 602 86 162 603</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>141 163 604 143 163 605 38 163 606 36 163 607</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>144 164 608 142 164 609 86 164 610 88 164 611</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>143 165 612 145 165 613 40 165 614 38 165 615</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>99 166 616 144 166 617 88 166 618 90 166 619</p>
+        </polylist>
+        <polylist material="Material_-1-material" count="6">
+          <input semantic="VERTEX" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh-map-0" offset="2" set="0"/>
+          <vcount>4</vcount>
+          <p>145 167 620 102 167 621 42 167 622 40 167 623</p>
+        </polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="c7c48421-ffec-7bf7-cca7-946961553083" name="cuboid" type="NODE">
+        <scale sid="scale">1 1 1</scale>
+        <translate sid="location">0 0 -0.4375</translate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <instance_geometry url="#c7c48421-ffec-7bf7-cca7-946961553083-mesh" name="cuboid">
+          <bind_material>
+            <technique_common>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="868a1bd0-0721-4b36-2957-7f29959bc271" name="cylinder" type="NODE">
+        <scale sid="scale">1 1 1</scale>
+        <translate sid="location">-5.273559366969494e-18 0.1875 -0.1875</translate>
+        <rotate sid="rotationX">1 0 0 -90</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <instance_geometry url="#868a1bd0-0721-4b36-2957-7f29959bc271-mesh" name="cylinder">
+          <bind_material>
+            <technique_common>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
